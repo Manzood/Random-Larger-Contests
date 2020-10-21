@@ -16,14 +16,14 @@ int32_t main() {
     for (int i = 3; i <= N; i++) {
         ans[i] = 1;
         if (i % 2 == 0) {
-            // ans[i] = ((ans[i]) * (ans[i-1]));
-            // ans[i] = ((ans[i]) * (i));
+            // ans[i] *= ans[i-1];
+            // ans[i] *= i;
             ans[i] *= i/2 * i/2;
             ans[i] *= ans[i-2];
         }
         else {
-            // ans[i] = ((ans[i]) * ((ans[i-1]/2)));
-            // ans[i] = ((ans[i]) * ((i/2 + 1)));
+            // ans[i] *= ans[i-1]/2;
+            // ans[i] *= (i/2 + 1);
             ans[i] *= i/2 * (i/2+1);
             ans[i] *= ans[i-2];
         }
