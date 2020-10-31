@@ -1,0 +1,10 @@
+Vineel Phatak, 520, NOBODY
+Ajay Joshi, 250, Vineel Phatak
+Abhishek Chauhan, 120, Ajay Joshi
+Jayesh Godse, 500, NOBODY
+Vijaya Mundada, 60, Abhishek Chauhan
+Shital Tuteja, 45, Jayesh Godse
+Rajan Gawli, 700, Vineel Phatak
+Zeba Khan, 300, Jayesh Godse
+Chaitali Sood, 100, Zeba Khan
+Sheila Rodrigues, 35, Vineel Phatak
