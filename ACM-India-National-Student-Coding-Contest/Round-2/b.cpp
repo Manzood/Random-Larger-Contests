@@ -7,7 +7,8 @@
 #include<map>
 using namespace std;
 #define debug(x) cout<<#x<<" = "<<x<<endl;
- int checkdiff (string &a, string &b) {
+
+int checkdiff (string &a, string &b) {
     int len = a.size();
     int retval = 0;
     for (int i = 0; i < len; i++) {
@@ -75,7 +76,7 @@ int main() {
             for (int k = 0; k < 3 && is_duplicate; k++) {
                 int check = 0;
                 if ((int)customers[i][k].size() == (int)customers[j][k].size()) {
-                    // check = checkdiff(customers[i][k], customers[j][k]);
+                    check = checkdiff(customers[i][k], customers[j][k]);
 
                     int len = customers[i][k].size();
                     for (int tempi = 0; tempi < len; tempi++) {

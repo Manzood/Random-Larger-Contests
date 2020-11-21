@@ -133,6 +133,8 @@ int main() {
                 found_duplicate = true;
                 counted[j] = true;
             }
+            int t;
+            cin >> t;
         }
         if (found_duplicate && !counted[i]) {
             duplicates++;
